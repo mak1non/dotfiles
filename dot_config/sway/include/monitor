@@ -1,0 +1,11 @@
+# monitor
+# =======
+
+# display mode
+output "Dell Inc. DELL S2721DGF DP7XP83" {
+    allow_tearing yes
+    max_render_time off
+
+    mode 2560x1440@165.080Hz
+    scale 1
+}

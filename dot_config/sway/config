@@ -1,0 +1,19 @@
+# sway config main
+# ================
+
+# man 5 sway
+
+# key
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+
+# app
+set $term foot
+set $menu wmenu-run
+
+# include
+include ./include/*
+include /etc/sway/config.d/*

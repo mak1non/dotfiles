@@ -1,0 +1,11 @@
+# appearance
+# ==========
+
+# border
+default_border pixel 4
+
+# gaps
+gaps inner 10
+
+# wallpaper
+output * bg "$HOME/.local/share/wall.jpg" fill
