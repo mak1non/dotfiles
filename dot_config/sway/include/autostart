@@ -4,7 +4,8 @@
 # auto-lock
 exec swayidle -w \
     timeout 300 'swaylock -f -c 000000' \
-    timeout 305 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+    timeout 305 'swaymsg "output * dpms off"' \
+    resume 'swaymsg "output * dpms on"' \
     before-sleep 'swaylock -f -c 000000'
 
 # ime
@@ -12,7 +13,7 @@ exec fcitx5
 
 # some time wasting shit
 exec {
-    discord
-    keepassxc
-    thunderbird
+    sleep 1 && discord
+    sleep 1 && keepassxc
+    sleep 1 && thunderbird
 }

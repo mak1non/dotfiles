@@ -7,6 +7,9 @@ bindsym --to-code {
     $mod+q kill              # close window
     $mod+Shift+f fullscreen  # make fullscreen
 
+    # lock screen
+    $mod+Delete exec swaylock -f -c 000000
+
     # Reload the configuration file
     $mod+Shift+c reload
 
