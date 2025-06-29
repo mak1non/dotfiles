@@ -45,5 +45,5 @@ export LESSOPEN="| /usr/bin/highlight -O ansi %s 2>/dev/null"
 # Wayland
 export QT_QPA_PLATFORM=wayland
 
-# If running from tty1 start sway
-[ "$(tty)" = "/dev/tty1" ] && exec dbus-run-session sway --unsupported-gpu
+# If running from tty1 start hyprland
+[ "$(tty)" = "/dev/tty1" ] && exec dbus-run-session hyprland
