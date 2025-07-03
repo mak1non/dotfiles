@@ -7,23 +7,21 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "sway/workspaces",
-        "sway/mode",
-        "sway/scratchpad"
+        "hyprland/workspaces",
+        "hyprland/submap"
     ],
     "modules-center": [
-        "sway/window"
+        "hyprland/window"
     ],
     "modules-right": [
+        "tray",
         "idle_inhibitor",
         "pulseaudio",
         "network",
         "cpu",
         "memory",
         "temperature",
-        "sway/language",
-        "clock",
-        "tray"
+        "clock"
     ],
     // Modules configuration
     // "sway/workspaces": {
@@ -51,7 +49,7 @@
             "unlocked": ""
         }
     },
-    "sway/mode": {
+    "hyprland/submap": {
         "format": "<span style=\"italic\">{}</span>"
     },
     "sway/scratchpad": {
@@ -80,7 +78,7 @@
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format": "{:%Y-%m-%d %H:%M}",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%H:%M}"
     },
     "cpu": {
         "format": "{usage}% 💗",
